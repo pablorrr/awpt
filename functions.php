@@ -69,3 +69,11 @@ require get_template_directory() . '/inc/woocommerce.php';
  * Load Editor functions.
  */
 require get_template_directory() . '/inc/editor.php';
+
+
+/**
+ * Load Vendor Composer Directory -autoload
+ */
+if ( file_exists( dirname( __FILE__ ) . '/vendor/autoload.php' ) ) :
+    require_once dirname( __FILE__ ) . '/vendor/autoload.php';
+endif;
