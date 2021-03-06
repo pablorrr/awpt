@@ -8,9 +8,7 @@
  */
 
 get_header();
-?>
 
-<?php
 $container = get_theme_mod('understrap_container_type');
 ?>
 
@@ -59,8 +57,8 @@ $container = get_theme_mod('understrap_container_type');
 
             <!-- The pagination component -->
             <?php if (has_action('_custom_paginate')):
-                            do_action('_custom_paginate');
-                    endif; ?>
+                do_action('_custom_paginate');
+            endif; ?>
 
         </div><!-- #primary -->
 

@@ -28,6 +28,7 @@ final class Init
 		//	Setup\Enqueue::class,
 			Custom\PostTypes::class,
             Custom\Comments::class,
+            Plugins\WooCommerce::class,
 		//	Custom\Admin::class,//handle settings api
 
 		//	Api\Customizer::class,
