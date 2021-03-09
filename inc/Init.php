@@ -25,7 +25,7 @@ final class Init
             Setup\Menus::class,
             Setup\Filters::class,
             Setup\Hooks::class,
-            //	Setup\Enqueue::class,
+            Setup\Enqueue::class,
             Custom\PostTypes::class,
             Custom\Comments::class,
             Plugins\WooCommerce::class,
