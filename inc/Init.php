@@ -30,6 +30,7 @@ final class Init
             Custom\Comments::class,
             Plugins\WooCommerce::class,
             //	Custom\Admin::class,//handle settings api
+            Custom\Admin::class,
 
             Api\WP_Customizer::class,
             //	Api\Gutenberg::class,//handle custom Gutenberg block

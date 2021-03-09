@@ -5,10 +5,7 @@
  * @package understrap
  */
 
-/**
- * Initialize theme default settings
- */
-require get_template_directory() . '/inc/theme-settings.php';
+
 
 
 /**
