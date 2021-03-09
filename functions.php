@@ -20,7 +20,7 @@ require get_template_directory() . '/inc/enqueue.php';
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/inc/customizer.php';
+//require get_template_directory() . '/inc/customizer.php';
 
 
 /**

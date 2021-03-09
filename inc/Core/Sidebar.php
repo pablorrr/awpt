@@ -18,7 +18,7 @@ class Sidebar
 
 
 
-   public function understrap_slbd_count_widgets( $sidebar_id ): string
+   public function understrap_slbd_count_widgets( $sidebar_id )
    {
         // If loading from front page, consult $_wp_sidebars_widgets rather than options
         // to see if wp_convert_widget_settings() has made manipulations in memory.
