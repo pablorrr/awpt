@@ -12,16 +12,6 @@ require get_template_directory() . '/inc/theme-settings.php';
 
 
 /**
- * Load Jetpack compatibility file.
- */
-require get_template_directory() . '/inc/jetpack.php';
-
-
-
-
-
-
-/**
  * Load Vendor Composer Directory -autoload
  */
 if (file_exists(dirname(__FILE__) . '/vendor/autoload.php')) :
