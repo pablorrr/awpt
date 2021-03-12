@@ -29,14 +29,13 @@ final class Init
             Custom\PostTypes::class,
             Custom\Comments::class,
             Plugins\WooCommerce::class,
-            //	Custom\Admin::class,//handle settings api
             Custom\Admin::class,
 
             Api\WP_Customizer::class,
-            //	Api\Gutenberg::class,//handle custom Gutenberg block
-            //	Api\Widgets\TextWidget::class,//handle custom Widget
-            Plugins\ThemeJetpack::class,//handle Automatic  jet pack plugin
-            //	Plugins\Acf::class//handle ACF plugin
+            Api\Gutenberg::class,//handle custom Gutenberg block
+
+            Plugins\ThemeJetpack::class,
+            Plugins\Acf::class
         ];
     }
 

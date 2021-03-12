@@ -9,6 +9,10 @@ class WooCommerce
 {
     public function register()
     {
+        if ( ! class_exists( 'WooCommerce' ) ) {
+            return;
+        }
+
         add_action('wp_enqueue_scripts', array($this, 'wp_enqueue_woocommerce_style'));
         add_action('after_setup_theme', array($this, 'understrap_woocommerce_support'));
         add_action('wp_enqueue_scripts', array($this, '_disable_woocommerce_loading_css_js'));
