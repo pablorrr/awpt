@@ -35,7 +35,8 @@ final class Init
             Api\Gutenberg::class,//handle custom Gutenberg block
 
             Plugins\ThemeJetpack::class,
-            Plugins\Acf::class
+            Plugins\Acf::class,
+            Plugins\Plugin_Activation::class
         ];
     }
 
